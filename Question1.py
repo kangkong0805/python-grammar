@@ -101,3 +101,9 @@ c*=c+b-2
 print(a)
 print(b)
 print(c)
+
+
+# 134
+a=0b1101001
+b=0b1011111
+print(bin(a&b),a&b)
