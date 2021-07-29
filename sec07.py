@@ -71,7 +71,7 @@ example(10,20,'park','kim','lee',age1=33,age2=34,age3=20)
 
 ''' 중첩 함수'''
 
-def nested_func(num):
+def nested_func(num:int) -> int:
     def func_in_func(num):
         print('>>>',num)
     print('In func')
