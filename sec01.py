@@ -1,18 +1,22 @@
+print() # 데이터를 화면에 출력하고 싶을 때 쓰는 함수
+
+""" 문자열 출력 방법 """
 print("Hello World")
 print('Hello World')
 print("""Hello World""")
 print('''Hello World''')
+
 print()
-print('t','e','s','t',sep='')
-print('2021','7','26',sep='-')
+print('t','e','s','t',sep='')               # sep='': 출력문들 사이에 해당하는 내용을 추가
+print(2021,7,26,sep='-')
 print('kang3530554','gmail.com',sep='@')
-print()
 print('','',sep='이게 되네 ㅋㅋ')
-print('Welcome to', end=' ')
+print()
+print('Welcome to', end=' ')                # end='': 출력을 완료한 뒤의 내용을 수정 (기본값은 개행)
 print('Python World',end=' ')
 print('soft school')
 
-# format 사용
+""" format 사용 """
 print('{} and {}'.format('U','I'))              # { } 안에 들어가는 코드는 인덱스 역할
 print('{1} and {0}'.format('U','I'))            # { } 안에 수를 지정하여 인덱스 번호 역할
 print('{a} and {b}'.format(a="I'm",b='tired'))  # { } 안에 변수같은 것을 지정하여 format( ) 안에 변수에 해당하는 값 지정 가능

@@ -1,3 +1,6 @@
+""" 클래스를 썼을 때와 안 썼을때의 차이점 """
+
+''' 안 썼을 떄 '''
 result1=0
 def add(num):
     global result1
@@ -9,6 +12,7 @@ def add2(num):
     result2 += num
     return result2
 
+'''썼을 때'''
 class Calculator:
     def __init__(self) -> None:
         self.result=0
@@ -26,7 +30,7 @@ print(cal1.add(10))
 
 
 class FourCal:
-    def setdata(self,first,second) -> None:
+    def __init__(self,first,second) -> None:
         self.first=first
         self.second=second
     def add(self):
@@ -44,3 +48,17 @@ print(a.mul())
 b.setdata(10,39)
 print(b.add())
 print(b.mul())
+
+class MorefourCal(FourCal):
+    def pow(self):
+        result=self.first**self.second
+        return result
+
+a=MorefourCal(5,5)
+b=FourCal(4,7)
+
+print(a.add())
+print(a.mul())
+print(b.add())
+print(b.mul())
+print(a.pow())
