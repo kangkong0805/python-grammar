@@ -1,5 +1,7 @@
-import this
-import sys
+# 모듈: 함수나 변수 또는 클래스를 모아 놓은 파일
+# import: 이미 만들어 놓은 파이썬 모듈을 사용할 수 있게 해주는 명령어
+import sys  # sys 모듈을 불러옴
+
 print()
 print(sys.stdin.encoding)
 print(sys.stdout.encoding)
