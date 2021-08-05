@@ -55,7 +55,7 @@ print(len(str2))
 print(len(str3)) 
 print(len(str4))
 
-str_t1=''
+str_t1=''   # 문자열 타입
 print(type(str_t1), len(str_t1))
 
 escape_str1 = "Do you have a \"big collection\""
@@ -78,8 +78,8 @@ print(str_o1 + str_o2)
 print('x' in str_o1)    # str_01 변수에 할당된 문자열에 'x'라는 문자가 들어가 있으면 'True', 없으면 'false'를 출력
 
 print("Capitalize:", str_o1.capitalize())
-print("Join str:", str_o1.join(["I'm ","!"]))
-print("replace1:", str_o1.replace('Good','Nice'))   
+print("Join str:", str_o1.join(["I'm ","!"]))       # str_01 변수 앞과 뒤에 각각 값이 출력
+print("replace1:", str_o1.replace('Good','Nice'))   # str_01 변수에 포함된 'Good'을 'Nice'로 변환
 print("replace2:", str_o3.replace('is','was', 3))   # 'is'를 'was'로 왼쪽부터 3번째까지 바꿈
 
 print("split:", str_o4.split(' '))
@@ -88,8 +88,8 @@ print("reversed:", list(reversed(str_o2)))
 
 first = "내 이름은 "
 second = "kangkong 입니다."
-string = first + second         # 문자열 변수 결합
-print(string)
+string = first + second             # 문자열 변수 결합
+print(string)   
 print('내 이름은', second)
 
 str_s1 = 'Niceman'
@@ -101,5 +101,5 @@ print(str_s1[1:4:2])
 print(str_s1[::3])
 print(str_s1[::-1],'\n')
 
-print("UPPER:", str_s1.upper())
-print("lower:", str_s1.lower())
+print("UPPER:", str_s1.upper())     # str_s1 변수의 문자열을 모두 대문자로 변환
+print("lower:", str_s1.lower())     # str_s1 변수의 문자열을 모두 소문자로 변환
