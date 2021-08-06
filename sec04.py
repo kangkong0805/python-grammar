@@ -17,10 +17,10 @@ print(e[-1][-3])
 
 ''' 슬라이싱 '''
 print('===='*20)
-print(d[0:3])
-print(d[:3])
-print(d[2:])
-print(e[2][0:2])
+print(d[0:3])               # 0번째 인덱스부터 2번째 인덱스까지 출력
+print(d[:3])                # 인덱스 처음부터 2번째 인덱스 까지 출력
+print(d[2:])                # 2번째 인덱스부터 인덱스 끝까지 출력
+print(e[2][0:2])            
 print(c+d)
 print(c*3)
 print('bol'+d[2])
