@@ -16,11 +16,11 @@ print(e[2][1])
 print(e[-1][-3])
 
 ''' 슬라이싱 '''
-print('===='*20)
+print('===='*20)            # 해당 문자열 20번 출력
 print(d[0:3])               # 0번째 인덱스부터 2번째 인덱스까지 출력
 print(d[:3])                # 인덱스 처음부터 2번째 인덱스 까지 출력
 print(d[2:])                # 2번째 인덱스부터 인덱스 끝까지 출력
-print(e[2][0:2])            
+print(e[2][0:2])            # 2번째 인덱스에서 0번째 인덱스부터 1번째 인덱스까지 출력
 print(c+d)
 print(c*3)
 print('bol'+d[2])
@@ -56,11 +56,11 @@ c.pop()             # 리스트 c의 있는 마지막 인덱스를 삭제
 print(c)
 c.pop(1)            # 리스트 c의 1번째 인덱스를 삭제
 print(c)
-print(c.count(8))   
+print(c.count(8))   # 해당 값의 개수 출력
 ex=[10, 11]
-c.append(ex)        
+c.append(ex)        # 해당 리스트 추가
 print(c)
-c.extend(ex)
+c.extend(ex)        # 해당 값 추가
 print(c)
 
 
