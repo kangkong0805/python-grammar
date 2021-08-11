@@ -98,7 +98,7 @@ q=[1,2,3]
 w={7,8,9,0}
 e={'name':'Kim', 'city':'Gwangju', 'grade':'B'}
 r=(10,12,14)
-print(1 in q)
+print(1 in q)                       # q의
 print(6 in w)
 print('name' in e)
 print(12 not in r)
