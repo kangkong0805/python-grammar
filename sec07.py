@@ -18,8 +18,8 @@ def func_mull_int(x):
     y1=x*10
     y2=x*100
     y3=x*1000
-    return y1,y2,y3
-val1,val2,val3=func_mull_int(5)
+    return y1,y2,y3             # 하나의 함수에 두 개 이상의 데이터를 반환 가능
+val1,val2,val3=func_mull_int(5) # 각 변수에 반환 데이터랑 각각 대응
 print(val1,val2,val3)
 print(type(val1))
 
