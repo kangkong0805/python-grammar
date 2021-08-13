@@ -1,20 +1,19 @@
 """ 클래스 """
 # class 클래스명:
 
-from _typeshed import Self
 
 
 class empty:
-    pass            # 코드 실행에 영향을 끼치지 않게 하는 명령어
+    pass            # pass: 코드 실행에 영향을 끼치지 않게 하는 명령어
 
 class UserInfo:
     def __init__(self, name):
         self.name=name
         print('Name:', self.name)
-user1=UserInfo('Kang')
-user2=UserInfo('Park')
+user1=UserInfo('Kang')  # UserInfo 클래스에 'kang' 메서드를 전달
+user2=UserInfo('Park') 
 print(id(user1))
-print(id(user2))
+print(user2)
 print('user1:',user1.__dict__)
 print('user2:',user2.__dict__)
 
@@ -33,8 +32,8 @@ class Student:
 
 s=Student('Jaehyun',22)
 s.info()
-del s
-print(type(s))
+del s       # del: 변수 삭제
+# print(type(s))
 
 class Student1:
     def __init__(self,name,age)->None:
