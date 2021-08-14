@@ -42,16 +42,16 @@ a = FourCal()
 b = FourCal()
 
 a.setdata(3,5)
-print(a.add())
-print(a.mul())
+print(a.add())  # 3+5
+print(a.mul())  # 3*5
 
 b.setdata(10,39)
-print(b.add())
-print(b.mul())
+print(b.add())  # 10+39
+print(b.mul())  # 10*39
 
 class MorefourCal(FourCal):
     def pow(self):
-        result=self.first**self.second
+        result=self.first**self.second  # **: 제곱 연산자
         return result
 
 a=MorefourCal(5,5)
