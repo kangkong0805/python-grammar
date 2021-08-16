@@ -1,13 +1,13 @@
 # 1. 아래 딕셔너리에서 '가을'에 해당하는 과일을 출력하세요.
 q1 =  {"봄": "딸기", "여름": "토마토", "가을": "사과"}
-for i in q1:
-    if i=='가을': print(q1[i])
+for i in q1:                    # q1의 인덱스 개수만큼 반복
+    if i=='가을': print(q1[i])  # 인덱스에 '가을'에 해당하는 데이터가 있으면 출력
 
 
 # 2. 아래 딕셔너리에서 '사과'가 포함되었는지 확인하세요.
 q2 =  {"봄": "딸기", "여름": "토마토", "가을": "사과"}
 for i in q2:
-    if i=='사과'or q2[i]=='사과': print('사과')
+    if i=='사과'or q2[i]=='사과': print('사과') # i: key, q2[i]: value
 
 
 # 3. 다음 점수 구간에 맞게 학점을 출력하세요.
@@ -16,12 +16,12 @@ for i in q2:
 # 41 ~ 60 :  C학점
 # 21 ~ 40 :  D학점
 #  0 ~ 20 :  E학점
-# n=int(input('-> '))
-# if n>=81 and n<=100: print('A학점')
-# elif n>60: print('B학점')
-# elif n>40: print('C학점')
-# elif n>20: print('D학점')
-# elif n>0: print('E학점')
+n=int(input('-> '))
+if n>=81 and n<=100: print('A학점')
+elif n>60: print('B학점')
+elif n>40: print('C학점')
+elif n>20: print('D학점')
+elif n>0: print('E학점')
 
 
 # # 4. 다음 세 개의 숫자 중 가장 큰수를 출력하세요.(if문 사용) : 12, 6, 18
