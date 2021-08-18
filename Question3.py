@@ -2,13 +2,13 @@
 # 함수명 starprint(n)
 def starprint(n):
     print('*'*n, end='')
-starprint(int(input('enter n: ')))
+starprint(int(input('enter n: ')))  # 입력 값이 함수의 매개변수로 전달
 
 
 # 2. 두수를 입력받아 합, 차, 곱을 저장하여 리스트로 출력하시오.
 # 함수명 operator(a,b)
 def operator(a,b):
-    return[a+b,a-b,a*b]
+    return[a+b,a-b,a*b]     # 리스트 형태로 반환
 a=int(input('enter a: '))
 b=int(input('enter b: '))
 print(operator(a,b))
