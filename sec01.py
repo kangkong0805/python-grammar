@@ -7,7 +7,7 @@ print("""Hello World""")
 print('''Hello World''')
 
 print()
-print('t','e','s','t',sep='')               # sep='': 출력문들 사이에 해당하는 내용을 추가
+print('t','e','s','t',sep='')               # sep='': 출력할 데이터들 사이에 해당하는 내용을 추가
 print(2021,7,26,sep='-')
 print('kang3530554','gmail.com',sep='@')
 print('','',sep='이게 되네 ㅋㅋ')
@@ -28,5 +28,5 @@ print("\n\n\n test")
 
 print("%s's favorite number is %d" %('kangkong', 1))                # 형식지정자에 해당하는 값은 %( ) 안에 입력
 print("Test1: %5d, price: %4.2f" %(789,1234.5678))                  # 1234.5678d에서 정수부분은 4자리 그대로 출력, 소수부분은 2번쩨 자리까지 반올림해서 출력
-print("Test1: {0:5d}, price:{1: 4.2f}" .format(789,1234.5678))
-print("Test1: {a:5d}, price:{b: 4.2f}" .format(a=789,b=1234.5678))
+print("Test1: {0:5d}, price:{1: 4.2f}" .format(789,1234.5678))      # 각 인자랑 값이랑 대응
+print("Test1: {a:5d}, price:{b: 4.2f}" .format(a=789,b=1234.5678))  # 인자에 이름을 지어 이름에 값을 대입
